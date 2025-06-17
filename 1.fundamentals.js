@@ -57,16 +57,14 @@ const student = {
     },
     regular: true
 }
-// Destructuring an object
-// Print the value of 'roll'
+// Dot Notation, Bracket Notation (Bracket Notation is preferred)
+// Print the value of 'roll' (Property type - number, string are not allowed)
 console.log(student.roll);
-// or,
+// or, (Any property type is allowed)
 console.log(student['roll']);
-// or, 
+// or, (Any property type is allowed)
 const studentRoll = 'roll';
 console.log(student[studentRoll]);
-// Print the value of third course taken by the student
-console.log(student.courses[2]);
 
 // ----- 7. Template String (Backtick) -----
 const season = 'Rainy';
