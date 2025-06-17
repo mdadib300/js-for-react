@@ -85,3 +85,12 @@ const summation = (num1, num2) => {
 console.log(summation(2,2));
 
 // ----- 9. Spread Operator -----
+// It is used to make a copy of an array
+const arr1 = [12,58,65,89,45];
+const newArr = [...arr1];
+console.log(arr1);
+console.log(newArr);
+// Copy and modify
+const newArr2 = [...arr1, 56];
+console.log(newArr2);
+
