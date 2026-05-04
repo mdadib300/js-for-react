@@ -9,12 +9,17 @@ console.log(c);
 const student = {
     name: 'Adib',
     age: 21,
-    level: 'BSc'
+    level: 'BSc',
+    25: 'It requires bracket notation',
+    'non-info': 'It also required bracket notation'
 };
 const {name, level, age, income} = student;
 // Serial doesn't matter in object, but does in array
 console.log(age);
 console.log(income);
+// Bracket Notation
+console.log(student[25]);
+console.log(student['non-info']);
 
 /////// Optional Chaining ///////
 const employee = {
